@@ -81,7 +81,7 @@ section.full_width{
   padding: 0;
 }
 
-h2{
+h1{
   padding: 10px;
 }
 
@@ -294,4 +294,32 @@ img {vertical-align: middle;}
   height: 130px;
   top: 80%;
   left: 30%;
+}
+
+.accordion {
+  background-color: #ccc;
+  color: #444;
+  cursor: pointer;
+  padding: 18px;
+  width: 100%;
+  border: none;
+  text-align: left;
+  outline: none;
+  font-size: 20px;
+  transition: 0.4s;
+  box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+}
+
+.active, .accordion:hover {
+  background-color: #757575;
+  color: #FFF;
+}
+
+.panel {
+  padding: 0 18px;
+  display: none;
+  background-color: white;
+  overflow: hidden;
+  text-align: left;
+  font-size: 18px;
 }
